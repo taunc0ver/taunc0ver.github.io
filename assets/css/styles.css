@@ -1,7 +1,7 @@
 @font-face {
 	font-family: Empire;
 	font-display: block;
-	src: url(../fonts/painting-with-chocolate.regular-webfont.woff2);
+	src: url(../fonts/aAbsoluteEmpire.woff2);
 }
 
 body {
@@ -117,7 +117,7 @@ body {
 }
 
 #classic{
-	background: blue;
+	background: linear-gradient(340deg, #F65656, #393CF2);
 }
 
 .header-box {
@@ -248,7 +248,21 @@ transform: translateY(-37vh);
 	
 }
 
+.home .section.feature.alt {
+	text-align: left;
+}
 
+.home .section.feature.alt > div {
+	flex-direction: row-reverse;
+}
+
+
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 	
 
 .home .hero-jumbo {
